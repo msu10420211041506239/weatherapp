@@ -1,38 +1,86 @@
-.App {
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
   text-align: center;
+  font-size: 2em;
+  margin: 20px 0;
+  color: rgb(2, 4, 31);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.jkl {
+  width: 90%;
+  max-width: 500px;
+  padding: 10px;
+  margin: 10px auto;
+  display: block;
+  font-size: 1em;
+  border: 2px solid #ccc;
+  border-radius: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#pl, #ji, #mb, #ls {
+  font-size: 1.2em;
+  text-align: center;
+  margin: 10px 0;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.8em;
+  }
+
+  .jkl {
+    width: 80%;
+    font-size: 0.9em;
+  }
+
+  #pl, #ji, #mb, #ls {
+    font-size: 1em;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5em;
   }
-  to {
-    transform: rotate(360deg);
+
+  .jkl {
+    width: 100%;
+    font-size: 0.8em;
   }
+
+  #pl, #ji, #mb, #ls,#es {
+    font-size: 0.9em;
+  }
+  }
+
+#lof, #ly {
+  text-align: center;
+  color: red;
+}
+span{
+  color: blue;
+}
+#ji{
+  position: relative;
+  left: 30px;
+}
+#mb{
+  position: relative;
+  left: 40px;
+}
+#es{
+  font: bold;
+  position: relative;
+  left: 150px;
+
+}
+#pl{
+  position: relative;
+  left: 10px;
+}
+#background{
+  background:linear-gradient(rgb(63, 111, 119),rgb(192, 139, 185),white)
 }
