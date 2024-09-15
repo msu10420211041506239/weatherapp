@@ -47,7 +47,7 @@ h1 {
   }
 
   .jkl {
-    width: 100%;
+    width: 95%;
     font-size: 0.8em;
   }
 
@@ -74,7 +74,7 @@ span{
 #es{
   font: bold;
   position: relative;
-  left: 130px;
+  left: 120px;
 
 }
 #pl{
